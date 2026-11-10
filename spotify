@@ -1,0 +1,5 @@
+const path = window.location.pathname.toLowerCase();
+
+if (path === "/spotify") {
+    window.location.replace("https://open.spotify.com/artist/27tKYufLGRYOLY0aHEOTzX");
+}
